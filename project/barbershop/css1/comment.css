@@ -1,0 +1,28 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+textarea{
+    width: 543px;
+    height: 158px;
+    background-color: #fff;
+    
+}
+button{
+    width: 400px;
+    height: 30px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.comment-box{
+    width: 845px;
+    padding: 20px;
+    margin: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}

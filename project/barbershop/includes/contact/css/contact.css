@@ -1,0 +1,61 @@
+body {
+background-color: #f1f1f1;
+
+}
+.comment-form{
+    max-width: 450px;
+    margin: 20px auto
+}
+
+
+.contact-form{
+    max-width: 450px;
+    margin: 20px auto
+
+}
+.contact-form .form-group{
+    margin-bottom: 10px;
+    position: relative
+
+}
+.contact-form input{
+    padding-left: 30px;
+
+}
+.contact-form input,
+.contact-form textarea{
+    margin-bottom: 18px
+
+}
+
+.contact-form textarea{
+    height: 180 !important
+}
+
+.contact-form i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -32px;
+    left: 10px;
+    color: #999;
+}
+.contact-form.asterisk{
+    float: right;
+    height: 0;
+    font-size: 22;
+    color: #b90d0d;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+
+}
+
+
+.contact-form .c-alert{
+    padding: 5px 8px;
+    display: none;
+
+
+}
+
