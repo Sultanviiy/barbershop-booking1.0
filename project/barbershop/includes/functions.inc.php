@@ -28,7 +28,7 @@ function invalidname($name){
 function invalidUid($username){
     $result;
     //  preg_match To Check certain type of char inside the username
-    if(!preg_match("/^[a-zA-Z0-9]*$/",$username )){
+    if(!preg_match("/^[a-zA-Z0-9]*{5}$/",$username )){
         $result=true;
     }
     else{
